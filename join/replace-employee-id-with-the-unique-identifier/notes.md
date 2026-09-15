@@ -6,7 +6,7 @@
 
 ## Решение
 
-### LEFT JOIN — O(n + m), O(1)
+### LEFT JOIN
 
 ```sql
 SELECT euni.unique_id, e.name

@@ -6,7 +6,7 @@
 
 ## Решение
 
-### WHERE с IS NULL и != — O(n), O(1)
+### WHERE с IS NULL и !=
 
 ```sql
 SELECT name

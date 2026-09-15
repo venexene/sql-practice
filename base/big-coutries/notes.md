@@ -6,7 +6,7 @@
 
 ## Решение
 
-### Прямой WHERE с OR — O(n), O(1)
+### Прямой WHERE с OR
 
 ```sql
 SELECT name, population, area

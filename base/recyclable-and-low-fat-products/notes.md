@@ -6,7 +6,7 @@
 
 ## Решение
 
-### Прямой WHERE с AND — O(n), O(1)
+### Прямой WHERE с AND
 
 ```sql
 SELECT product_id

@@ -6,7 +6,7 @@
 
 ## Решение
 
-### LEFT JOIN + IS NULL — O(n + m), O(1)
+### LEFT JOIN + IS NULL
 
 ```sql
 SELECT c.name AS Customers

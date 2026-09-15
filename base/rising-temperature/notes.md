@@ -6,7 +6,7 @@
 
 ## Решение
 
-### Self-join через INTERVAL — O(n²) до O(n log n), O(1)
+### Self-join через INTERVAL
 
 ```sql
 SELECT w1.id
@@ -25,7 +25,7 @@ WHERE w1.temperature > w2.temperature;
 | Арифметика дат | `w1.recordDate - w2.recordDate = 1` | Универсально, работает в большинстве СУБД |
 | `DATE_ADD` | `DATE_ADD(w2.recordDate, INTERVAL 1 DAY)` | MySQL |
 | `DATEDIFF` | `DATEDIFF(w1.recordDate, w2.recordDate) = 1` | MySQL / SQL Server |
-| Оконная `LAG()` | `LAG(temperature) OVER (ORDER BY recordDate)` | Без джойна, O(n log n) |
+| Оконная `LAG()` | `LAG(temperature) OVER (ORDER BY recordDate)` | Позволяет обратиться к значению предыдущей строки без self-join |
 
 ## Что важно запомнить
 

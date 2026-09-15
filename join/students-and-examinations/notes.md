@@ -10,7 +10,7 @@
 
 ## Решение
 
-### CROSS JOIN + LEFT JOIN + COUNT(колонка) — O(s·sub·e), O(1)
+### CROSS JOIN + LEFT JOIN + COUNT(колонка)
 
 ```sql
 SELECT s.student_id, s.student_name, sub.subject_name, COUNT(e.student_id) AS attended_exams
