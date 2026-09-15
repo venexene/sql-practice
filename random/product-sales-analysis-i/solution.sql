@@ -1,5 +1,3 @@
-SELECT author_id AS id
-FROM Views
-WHERE author_id = viewer_id
-GROUP BY author_id
-ORDER BY author_id;
+SELECT p.product_name, s.year, s.price 
+FROM Sales s
+JOIN Product p ON s.product_id = p.product_id;
