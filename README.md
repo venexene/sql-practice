@@ -10,11 +10,12 @@ SQL training — solving LeetCode problems and taking notes.
 - [x] [Recyclable and Low Fat Products](./base/recyclable-and-low-fat-products/) — WHERE, AND
 - [x] [Find Customer Referee](./base/find-customer-referee/) — WHERE, IS NULL, !=
 - [x] [Invalid Tweets](./base/invalid-tweets/) — WHERE, LENGTH
+- [x] [Not Boring Movies](./base/not-boring-movies/) — WHERE, modulo, ORDER BY
 
 ### JOIN and relations
 
-- [x] [Customers Who Never Order](./base/customers-who-never-order/) — LEFT JOIN, IS NULL (anti-join)
-- [x] [Rising Temperature](./base/rising-temperature/) — self-join, INTERVAL
+- [x] [Customers Who Never Order](./join/customers-who-never-order/) — LEFT JOIN, IS NULL (anti-join)
+- [x] [Rising Temperature](./join/rising-temperature/) — self-join, INTERVAL
 - [x] [Replace Employee ID With The Unique Identifier](./join/replace-employee-id-with-the-unique-identifier/) — LEFT JOIN
 - [x] [Employee Bonus](./join/employee-bonus/) — LEFT JOIN, IS NULL
 - [x] [Students and Examinations](./join/students-and-examinations/) — CROSS JOIN, LEFT JOIN, COUNT
@@ -27,3 +28,13 @@ SQL training — solving LeetCode problems and taking notes.
 - [x] [Article Views I](./aggregation/article-views-i/) — WHERE, GROUP BY, ORDER BY
 - [x] [Confirmation Rate](./aggregation/confirmation-rate/) — COUNT, FILTER, ROUND
 - [x] [Managers with at Least 5 Direct Reports](./aggregation/managers-with-at-least-5-direct-reports/) — self-join, GROUP BY, HAVING
+- [x] [Average Selling Price](./aggregation/average-selling-price/) — weighted average, LEFT JOIN, SUM, NULLIF
+- [x] [Project Employees I](./aggregation/project-employee-i/) — JOIN, AVG, ROUND
+- [x] [Percentage of Users Attended a Contest](./aggregation/percentage-of-users-attended-a-contest/) — COUNT, scalar subquery, ORDER BY
+- [x] [Queries Quality and Percentage](./aggregation/queries-quality-and-percentage/) — AVG, FILTER, ROUND
+- [x] [Monthly Transactions I](./aggregation/monthly-transactions-i/) — TO_CHAR, GROUP BY, FILTER, COALESCE
+
+### Subqueries and first-event selection
+
+- [x] [Immediate Food Delivery II](./subqueries/immediate-food-delivery-ii/) — MIN, subquery, JOIN, FILTER
+- [x] [Game Play Analysis IV](./subqueries/game-play-analysis-iv/) — MIN, subquery, INTERVAL, COUNT DISTINCT
