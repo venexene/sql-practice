@@ -14,16 +14,16 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 23 problems · 4 topics**
+**Solved: 30 problems · 4 topics**
 
-**Difficulty: 18 Easy · 5 Medium · 0 Hard**
+**Difficulty: 23 Easy · 7 Medium · 0 Hard**
 
 | Topic | Solved |
 |------|--------|
 | Basic Queries | 5 |
 | JOIN & Relations | 8 |
-| Aggregation & Grouping | 8 |
-| Subqueries & First-Event Selection | 2 |
+| Aggregation & Grouping | 14 |
+| Subqueries & First-Event Selection | 3 |
 
 ## Basic Queries (5)
 
@@ -44,7 +44,7 @@ Each problem lives in its own directory with:
 - [x] [Customer Who Visited but Did Not Make Any Transactions](./join/customer-who-visited-but-did-not-make-any-transactions/) - LEFT JOIN, IS NULL, GROUP BY
 - [x] [Average Time of Process per Machine](./join/average-time-of-process-per-machine/) - self-join, aggregation
 
-## Aggregation & Grouping (8)
+## Aggregation & Grouping (14)
 
 - [x] [Article Views I](./aggregation/article-views-i/) - WHERE, GROUP BY, ORDER BY
 - [x] [Confirmation Rate](./aggregation/confirmation-rate/) - COUNT, FILTER, ROUND
@@ -54,8 +54,15 @@ Each problem lives in its own directory with:
 - [x] [Percentage of Users Attended a Contest](./aggregation/percentage-of-users-attended-a-contest/) - COUNT, scalar subquery, ORDER BY
 - [x] [Queries Quality and Percentage](./aggregation/queries-quality-and-percentage/) - AVG, FILTER, ROUND
 - [x] [Monthly Transactions I](./aggregation/monthly-transactions-i/) - TO_CHAR, GROUP BY, FILTER, COALESCE
+- [x] [Number of Unique Subjects Taught by Each Teacher](./aggregation/number-of-unique-subjects-taught-by-each-teacher/) - GROUP BY, COUNT DISTINCT
+- [x] [User Activity for the Past 30 Days I](./aggregation/user-activity-for-the-past-30-days-i/) - date range, INTERVAL, COUNT DISTINCT
+- [x] [Classes with at Least 5 Students](./aggregation/classes-with-at-least-5-students/) - GROUP BY, COUNT, HAVING
+- [x] [Find Followers Count](./aggregation/find-followers-count/) - GROUP BY, COUNT, ORDER BY
+- [x] [Biggest Single Number](./aggregation/biggest-single-number/) - GROUP BY, HAVING, subquery, MAX
+- [x] [Customers Who Bought All Products](./aggregation/customers-who-bought-all-products/) - COUNT DISTINCT, HAVING, scalar subquery
 
-## Subqueries & First-Event Selection (2)
+## Subqueries & First-Event Selection (3)
 
 - [x] [Immediate Food Delivery II](./subqueries/immediate-food-delivery-ii/) - MIN, subquery, JOIN, FILTER
 - [x] [Game Play Analysis IV](./subqueries/game-play-analysis-iv/) - MIN, subquery, INTERVAL, COUNT DISTINCT
+- [x] [Product Sales Analysis III](./subqueries/product-sales-analysis-iii/) - MIN, subquery, JOIN
