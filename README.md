@@ -14,24 +14,27 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 30 problems · 4 topics**
+**Solved: 37 problems · 6 topics**
 
-**Difficulty: 23 Easy · 7 Medium · 0 Hard**
+**Difficulty: 26 Easy · 11 Medium · 0 Hard**
 
 | Topic | Solved |
 |------|--------|
-| Basic Queries | 5 |
+| Basic Queries | 6 |
 | JOIN & Relations | 8 |
-| Aggregation & Grouping | 14 |
-| Subqueries & First-Event Selection | 3 |
+| Aggregation & Grouping | 16 |
+| Subqueries & Extremum Selection | 4 |
+| Set Operations | 1 |
+| Window Functions | 2 |
 
-## Basic Queries (5)
+## Basic Queries (6)
 
 - [x] [Big Countries](./base/big-coutries/) - WHERE, OR
 - [x] [Recyclable and Low Fat Products](./base/recyclable-and-low-fat-products/) - WHERE, AND
 - [x] [Find Customer Referee](./base/find-customer-referee/) - WHERE, IS NULL, !=
 - [x] [Invalid Tweets](./base/invalid-tweets/) - WHERE, LENGTH
 - [x] [Not Boring Movies](./base/not-boring-movies/) - WHERE, modulo, ORDER BY
+- [x] [Triangle Judgement](./base/triangle-judgement/) - CASE, triangle inequalities
 
 ## JOIN & Relations (8)
 
@@ -44,7 +47,7 @@ Each problem lives in its own directory with:
 - [x] [Customer Who Visited but Did Not Make Any Transactions](./join/customer-who-visited-but-did-not-make-any-transactions/) - LEFT JOIN, IS NULL, GROUP BY
 - [x] [Average Time of Process per Machine](./join/average-time-of-process-per-machine/) - self-join, aggregation
 
-## Aggregation & Grouping (14)
+## Aggregation & Grouping (16)
 
 - [x] [Article Views I](./aggregation/article-views-i/) - WHERE, GROUP BY, ORDER BY
 - [x] [Confirmation Rate](./aggregation/confirmation-rate/) - COUNT, FILTER, ROUND
@@ -60,9 +63,21 @@ Each problem lives in its own directory with:
 - [x] [Find Followers Count](./aggregation/find-followers-count/) - GROUP BY, COUNT, ORDER BY
 - [x] [Biggest Single Number](./aggregation/biggest-single-number/) - GROUP BY, HAVING, subquery, MAX
 - [x] [Customers Who Bought All Products](./aggregation/customers-who-bought-all-products/) - COUNT DISTINCT, HAVING, scalar subquery
+- [x] [The Number of Employees Which Report to Each Employee](./aggregation/the-number-of-employees-which-report-to-each-employee/) - self-join, COUNT, AVG, ORDER BY
+- [x] [Count Salary Categories](./aggregation/count-salary-categories/) - VALUES, CASE, LEFT JOIN, COUNT
 
-## Subqueries & First-Event Selection (3)
+## Subqueries & Extremum Selection (4)
 
 - [x] [Immediate Food Delivery II](./subqueries/immediate-food-delivery-ii/) - MIN, subquery, JOIN, FILTER
 - [x] [Game Play Analysis IV](./subqueries/game-play-analysis-iv/) - MIN, subquery, INTERVAL, COUNT DISTINCT
 - [x] [Product Sales Analysis III](./subqueries/product-sales-analysis-iii/) - MIN, subquery, JOIN
+- [x] [Product Price at a Given Date](./subqueries/product-price-at-a-given-date/) - MAX, date filter, LEFT JOIN, CASE
+
+## Set Operations (1)
+
+- [x] [Primary Department for Each Employee](./set-operations/primary-department-for-each-employee/) - UNION ALL, GROUP BY, HAVING
+
+## Window Functions (2)
+
+- [x] [Consecutive Numbers](./window-functions/consecutive-numbers/) - LAG, ordered row comparison, DISTINCT
+- [x] [Last Person to Fit in the Bus](./window-functions/last-person-to-fit-in-the-bus/) - running SUM, ORDER BY, LIMIT
