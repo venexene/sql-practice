@@ -14,18 +14,18 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 37 problems · 6 topics**
+**Solved: 44 problems · 6 topics**
 
-**Difficulty: 26 Easy · 11 Medium · 0 Hard**
+**Difficulty: 27 Easy · 16 Medium · 1 Hard**
 
 | Topic | Solved |
 |------|--------|
 | Basic Queries | 6 |
 | JOIN & Relations | 8 |
 | Aggregation & Grouping | 16 |
-| Subqueries & Extremum Selection | 4 |
-| Set Operations | 1 |
-| Window Functions | 2 |
+| Subqueries | 5 |
+| Set Operations | 3 |
+| Window Functions | 6 |
 
 ## Basic Queries (6)
 
@@ -66,18 +66,25 @@ Each problem lives in its own directory with:
 - [x] [The Number of Employees Which Report to Each Employee](./aggregation/the-number-of-employees-which-report-to-each-employee/) - self-join, COUNT, AVG, ORDER BY
 - [x] [Count Salary Categories](./aggregation/count-salary-categories/) - VALUES, CASE, LEFT JOIN, COUNT
 
-## Subqueries & Extremum Selection (4)
+## Subqueries (5)
 
 - [x] [Immediate Food Delivery II](./subqueries/immediate-food-delivery-ii/) - MIN, subquery, JOIN, FILTER
 - [x] [Game Play Analysis IV](./subqueries/game-play-analysis-iv/) - MIN, subquery, INTERVAL, COUNT DISTINCT
 - [x] [Product Sales Analysis III](./subqueries/product-sales-analysis-iii/) - MIN, subquery, JOIN
 - [x] [Product Price at a Given Date](./subqueries/product-price-at-a-given-date/) - MAX, date filter, LEFT JOIN, CASE
+- [x] [Employees Whose Manager Left the Company](./subqueries/employees-whose-manager-left-the-company/) - NOT EXISTS, correlated subquery, ORDER BY
 
-## Set Operations (1)
+## Set Operations (3)
 
 - [x] [Primary Department for Each Employee](./set-operations/primary-department-for-each-employee/) - UNION ALL, GROUP BY, HAVING
+- [x] [Movie Rating](./set-operations/movie-rating/) - UNION ALL, COUNT, AVG, ORDER BY, LIMIT
+- [x] [Friend Requests II: Who Has the Most Friends](./set-operations/friend-requests-ii-who-has-the-most-friends/) - UNION ALL, GROUP BY, COUNT, LIMIT
 
-## Window Functions (2)
+## Window Functions (6)
 
 - [x] [Consecutive Numbers](./window-functions/consecutive-numbers/) - LAG, ordered row comparison, DISTINCT
 - [x] [Last Person to Fit in the Bus](./window-functions/last-person-to-fit-in-the-bus/) - running SUM, ORDER BY, LIMIT
+- [x] [Exchange Seats](./window-functions/exchange-seats/) - LAG, LEAD, CASE, COALESCE
+- [x] [Restaurant Growth](./window-functions/restaurant-growth/) - rolling SUM and AVG, ROWS frame, daily aggregation
+- [x] [Investments in 2016](./window-functions/investments-in-2016/) - COUNT OVER, PARTITION BY, SUM
+- [x] [Department Top Three Salaries](./window-functions/department-top-three-salaries/) - DENSE_RANK, PARTITION BY, JOIN
