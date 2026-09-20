@@ -14,18 +14,20 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 44 problems · 6 topics**
+**Solved: 51 problems · 8 topics**
 
-**Difficulty: 27 Easy · 16 Medium · 1 Hard**
+**Difficulty: 33 Easy · 17 Medium · 1 Hard**
 
 | Topic | Solved |
 |------|--------|
 | Basic Queries | 6 |
+| String Functions & Regular Expressions | 3 |
 | JOIN & Relations | 8 |
-| Aggregation & Grouping | 16 |
+| Aggregation & Grouping | 18 |
 | Subqueries | 5 |
 | Set Operations | 3 |
-| Window Functions | 6 |
+| Window Functions | 7 |
+| Data Modification | 1 |
 
 ## Basic Queries (6)
 
@@ -35,6 +37,12 @@ Each problem lives in its own directory with:
 - [x] [Invalid Tweets](./base/invalid-tweets/) - WHERE, LENGTH
 - [x] [Not Boring Movies](./base/not-boring-movies/) - WHERE, modulo, ORDER BY
 - [x] [Triangle Judgement](./base/triangle-judgement/) - CASE, triangle inequalities
+
+## String Functions & Regular Expressions (3)
+
+- [x] [Fix Names in a Table](./string-functions/fix-names-in-a-table/) - UPPER, LOWER, LEFT, SUBSTRING, concatenation
+- [x] [Patients With a Condition](./string-functions/patients-with-a-condition/) - regular expressions, anchors, alternatives
+- [x] [Find Users With Valid E-Mails](./string-functions/find-users-with-valid-e-mails/) - regular expressions, character classes, escaping
 
 ## JOIN & Relations (8)
 
@@ -65,6 +73,8 @@ Each problem lives in its own directory with:
 - [x] [Customers Who Bought All Products](./aggregation/customers-who-bought-all-products/) - COUNT DISTINCT, HAVING, scalar subquery
 - [x] [The Number of Employees Which Report to Each Employee](./aggregation/the-number-of-employees-which-report-to-each-employee/) - self-join, COUNT, AVG, ORDER BY
 - [x] [Count Salary Categories](./aggregation/count-salary-categories/) - VALUES, CASE, LEFT JOIN, COUNT
+- [x] [Group Sold Products By The Date](./aggregation/group-sold-products-by-the-date/) - COUNT DISTINCT, STRING_AGG, GROUP BY, ORDER BY
+- [x] [List the Products Ordered in a Period](./aggregation/list-the-products-ordered-in-a-period/) - JOIN, date range, SUM, HAVING
 
 ## Subqueries (5)
 
@@ -88,3 +98,8 @@ Each problem lives in its own directory with:
 - [x] [Restaurant Growth](./window-functions/restaurant-growth/) - rolling SUM and AVG, ROWS frame, daily aggregation
 - [x] [Investments in 2016](./window-functions/investments-in-2016/) - COUNT OVER, PARTITION BY, SUM
 - [x] [Department Top Three Salaries](./window-functions/department-top-three-salaries/) - DENSE_RANK, PARTITION BY, JOIN
+- [x] [Second Highest Salary](./window-functions/second-highest-salary/) - DENSE_RANK, VALUES, LEFT JOIN, LIMIT
+
+## Data Modification (1)
+
+- [x] [Delete Duplicate Emails](./data-modification/delete-duplicate-emails/) - DELETE, GROUP BY, MIN, NOT IN
